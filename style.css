@@ -17,7 +17,7 @@ h2 {
 	font-size: 0.8rem;
 }
 p {
-	font-size: 0.5rem;
+	font-size: 0.4rem;
 }
 
 .image {
@@ -58,7 +58,7 @@ p {
 }
 .navbar1 .navbar-nav1 li {
 	list-style-type: none;
-	font-size: 0.5rem;
+	font-size: 0.4rem;
 	padding: 0 10px;
 }
 
@@ -207,6 +207,10 @@ p {
 
 #section4 {
 	padding: 50px 10px;
+}
+
+#section4 .about-container .btn {
+	font-size: 0.6rem;
 }
 
 #services {
