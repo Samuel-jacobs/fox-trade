@@ -7,6 +7,7 @@
 	box-sizing: border-box;
 }
 body {
+	width: 100%;
 	overflow-x: hidden;
 }
 
@@ -73,6 +74,11 @@ p {
 
 #nav1 .navbar-nav1 .nav-item1 a {
 	color: black;
+}
+.top-icon {
+	height: 30px;
+	width: 30px;
+	padding-right: 5px;
 }
 #section1 {
 	padding: 50px 10px 10px 10px;
