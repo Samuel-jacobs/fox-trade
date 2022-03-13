@@ -41,8 +41,13 @@ p {
 #top-contact .top-contact .top-contact_content h6 {
 	font-size: 0.7rem;
 }
+.top-contact {
+	display: flex;
+	flex-direction: row;
+}
 #nav {
 	padding-top: 20px;
+	background-color: #325c94;
 }
 #nav a {
 	color: white;
@@ -189,20 +194,15 @@ p {
 .section3-card > i,  .section3-card:nth-child(3) .icon i {
 	background: #1BDBAC;
 }
-/*.flaticon-analysis:before {
-	content: "\f100";
+
+.icon-image {
+	height: 50px;
+	width: 50px;
+	position: relative;
+	padding-bottom: 20px;
+	
 }
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
-    
-	font-family: Flaticon;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}*/
+
 .card h5 {
 	font-size: 0.5rem;
 	font-weight: bolder;
@@ -222,22 +222,32 @@ p {
 
 #services {
 	padding: 50px 10px;
+	background-color: rgb(247, 245, 245);
 }
 .service-cards {
-	border: none;
-	margin: 10px 5px;
+	width: 200px;
 }
 
 #section6 {
 	padding: 50px 10px;
 }
 
-#section6 .accordion a {
+#section6 .accordion a.bg-green {
 	background-color: green;
 	border-radius: 5px;
 	color: white;
 	font-size: 0.5rem;
 	padding: 5px 20px;
+	
+}
+#section6 .accordion a.bg-outline {
+	background-color: white;
+	border: 2px solid #325c94;
+	color: #325c94;
+	border-radius: 5px;
+	font-size: 0.5rem;
+	padding: 5px 20px;
+	margin-bottom: 5px;
 }
 #section6 .accordion .collapse p {
 	padding-top: 10px;
@@ -287,10 +297,17 @@ p {
 	font-size: 0.6rem;
 
 }
+
 #team {
 	padding: 50px 0;
 }
+#testimonials .carousel-item .testimonial-image {
 
+	width: 100%;
+	object-fit: cover;
+	height: 500px;
+	filter: brightness(50%);
+}
 #team .experts {
 	text-align: center;
 	color: red;
@@ -356,7 +373,7 @@ p {
 }
 
 #footer {
-	background-color: darkblue;
+	background-color: #111d30;
 	padding: 50px 20px 30px 10px;
 	color: white;
 	

@@ -18,19 +18,21 @@
 
 
 	<body>
+		<script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
+<coingecko-coin-price-marquee-widget  coin-ids="bitcoin,ethereum,eos,ripple,litecoin" currency="usd" background-color="#ffffff" locale="en"></coingecko-coin-price-marquee-widget>
 			<div id="top-contact">
 				<div class="top-logo">
 					<img src="img/logo.png" alt="fox trade logo image">
 				</div>
 				<div class="top-contact">
-					<span></span>
+					<img src="img/email.svg" alt="email icon" class="icon-image">
 					<div class="top-contact_content">
 						<h6>EMAIL</h6>
 						<p>admin@fox-tradeinvest.com</p>
 					</div>	
 				</div>
 				<div class="top-contact">
-					<span></span>
+					<img src="img/phone.svg" alt="phone icon" class="icon-image">
 					<div class="top-contact_content">
 						<h6>Phone</h6>
 						<p>+97145677990</p>
@@ -38,7 +40,7 @@
 					
 				</div>
 				<div class="top-contact">
-					<span></span>
+					<img src="img/clock.svg" alt="clock icon" class="icon-image">
 					<div class="top-contact_content">
 						<h6>Day Started</h6>
 						<p>June, 2015</p>
@@ -46,7 +48,7 @@
 					
 				</div>
 			</div>
-			<nav id="nav" class="navbar1 bg-dark navbar-light">
+			<nav id="nav" class="navbar1 navbar-light">
 				<!--<button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#collapsibleNavbar">
 					<span class="navbar-toggler-icon"></span>
 				</button>-->
@@ -161,7 +163,7 @@
 								<span class="dot-shape"></span>
 							</div>
 							<i class="flaticon-analysis"> 
-								
+								<img src="img/analysis.svg" alt="analysis icon" class="icon-image">
 							</i>
 						</div>
 						<h5>Offline Storage</h5>
@@ -178,7 +180,7 @@
 								<span class="dot-shape"></span>
 							</div>
 							<i class="flaticon-analysis"> 
-								
+								<img src="img/security.svg" alt="security icon" class="icon-image">
 							</i>
 						</div>
 						<h5>Built-In-Class Security</h5>
@@ -195,7 +197,7 @@
 								<span class="dot-shape"></span>
 							</div>
 							<i class="flaticon-analysis"> 
-								
+								<img src="img/wallet.svg" alt="wallet icon" class="icon-image">
 							</i>
 						</div>
 						<h5>Protected Insurance</h5>
@@ -233,49 +235,66 @@
 			<!--end of about section-->
 
 			<!--services section-->
-			<!--<section id="services">
-				<h2>OUR SERVICES</h2>
-				<div id="carousel-service" class="carousel slide" data-ride="carousel">
-					<div class="carousel-inner row">
-						<div class="carousel-item col-6 col-md-4 col-lg-3 active">
-							<div class="card service-cards shadow">
-								<div></div>
-								<h4>SELF-RELIANT</h4>
-								<p>Devoted in building a sustainable and scaleble investment model to become a stand-alone institution without requiring support of large banks</p>
-								<a href="#">READ MORE</a>
-							</div>
-						</div>
-						<div class="carousel-item col-6 col-md-4 col-lg-3">
-							<div class="card service-cards shadow">
-								<div></div>
-								<h4>CONSISTENT INCOME</h4>
-								<p>Seasoned traders works in various shifts to cover all time zones and maximize profits to the satisfaction of worldwide investors</p>
-								<a href="#">READ MORE</a>
-							</div>
-						</div>
-						<div class="carousel-item col-6 col-md-4 col-lg-3">
-							<div class="card service-cards shadow">
-								<div></div>
-								<h4>SECURE INVESTMENT</h4>
-								<p>Utilizing advanced SSL encryption for utmost protection of data and funds</p>
-								<a href="#">READ MORE</a>
-							</div>
-						</div>
-						<div class="carousel-item col-6 col-md-4 col-lg-3">
-							<div class="card service-cards shadow">
+			<section id="services">
+				<h2 class="text-center">OUR SERVICES</h2>
+				
+							<!--<div class="card service-cards shadow">
 								<div></div>
 								<h4>24/7 CUSTOMER SUPPORT</h4>
 								<p>We provide 24/7 customer support through e-mail. Our support representatives are aleays available to answer any questions</p>
 								<a href="#">REGISTER & GET STARTED NOW</a>
+							</div>-->
+					
+				<div class="services-container section3-container">
+					<div class="card section3-card service-cards shadow-sm">
+						<div class="icon">
+							<div class="shape-box">
+								<span class="dot-shape"></span>
+								<span class="dot-shape"></span>
+								<span class="dot-shape"></span>
 							</div>
+							<i class="flaticon-analysis"> 
+								<img src="img/analysis.svg" alt="analysis icon" class="icon-image">
+							</i>
 						</div>
+						<h5>SELF-RELIANT</h5>
+						<p>Devoted in building a sustainable and scaleble investment model to become a stand-alone institution without requiring support of large banks</p>
+						<a href="#">READ MORE</a>
+					</div>
+
+					<div class="card section3-card service-cards shadow-sm">
+						<div class="icon">
+							<div class="shape-box">
+								<span class="dot-shape"></span>
+								<span class="dot-shape"></span>
+								<span class="dot-shape"></span>
+							</div>
+							<i class="flaticon-analysis"> 
+								<img src="img/income.svg" alt="income icon" class="icon-image">
+							</i>
+						</div>
+						<h5>CONSISTENT INCOME</h5>
+						<p>Seasoned traders works in various shifts to cover all time zones and maximize profits to the satisfaction of worldwide investors</p>
+						<a href="#">READ MORE</a>
+					</div>
+			
+					<div class="card section3-card service-cards shadow-sm">
+						<div class="icon">
+							<div class="shape-box">
+								<span class="dot-shape"></span>
+								<span class="dot-shape"></span>
+								<span class="dot-shape"></span>
+							</div>
+							<i> 
+								<img src="img/wallet.svg" alt="wallet icon" class="icon-image">
+							</i>
+						</div>
+						<h5>SECURE INVESTMENT</h5>
+						<p>Utilizing advanced SSL encryption for utmost protection of data and funds</p>
+						<a href="#">READ MORE</a>
 					</div>
 				</div>
-				<div class="services-container">
-			
-				</div>
-			
-			</section>-->
+			</section>
 
 			<section id="section6">
 				<div class="section6-container row">
@@ -290,7 +309,7 @@
 					<div class="col-6" id="accordion">
 						<!--first accordion content-->
 						<div class="accordion">
-							<a href="#data-analysis" data-toggle="collapse">Data & Analysis</a>
+							<a href="#data-analysis" data-toggle="collapse" class="bg-green">Data & Analysis</a>
 							<div class="collapse show" id="data-analysis" data-parent="#accordion">
 								<p>In different kinds of trading cryptocurrency, forex and binary trades, we trade continuously to find you a stable revenue. In other to maintain a balance of stable income for our investors and traders,we offer only three investment plans for all our members,all our trading technologies and experts are mainly focused on bringing profits to this particular three plans, making it possible to be a long-term platform</p>
 							</div>
@@ -298,13 +317,13 @@
 						</div><!--end of first accordion content-->
 						<!--second accordion content-->
 						<div class="accordion">
-							<a href="#affiliate-program" data-toggle="collapse">Affiliate program</a>
+							<a href="#affiliate-program" data-toggle="collapse" class="bg-outline">Affiliate program</a>
 							<div class="collapse" id="affiliate-program" data-parent="#accordion">
 								<p>Get more from working with Fox Trade Invest by becoming a project partner. Register on the site, attract members through your affiliate link and get rewarded for their deposits</p>
 							</div>
 						</div> <!--end of second accordion content-->
 						<div class="accordion">
-							<a href="#best-care" data-toggle="collapse">Best Care</a>
+							<a href="#best-care" data-toggle="collapse" class="bg-outline">Best Care</a>
 							<div class="collapse" id="best-care" data-parent="#accordion">
 								<p>It's important for us to stay connected and make sure our site is available to you. That's why we use 24/7 monitoring service with specialist in stand-by.</p>
 							</div>
@@ -324,7 +343,9 @@
 					<div class="card">
 						<h2>BASIC</h2>
 						<p class="text-center font-weight-bold">10% After 24 Hours</p>
-						<div></div>
+						<div>
+							<img src="img/rocket.svg" alt="rocket icon" class="icon-image">
+						</div>
 						<div class="investment-plans_content">
 							<p>&check; Min Deposit: $300.00</p>
 							<p>&check; Max Deposit: $6000</p>
@@ -343,7 +364,9 @@
 					<div class="card">
 						<h2>STANDARD</h2>
 						<p class="text-center font-weight-bold">25% After 24 Hours</p>
-						<div></div>
+						<div>
+							<img src="img/award.svg" alt="award icon" class="icon-image">
+						</div>
 						<div class="investment-plans_content">
 							<p>&check; Min Deposit: $3,500.00</p>
 							<p>&check; Max Deposit: $20,000</p>
@@ -362,7 +385,9 @@
 					<div class="card">
 						<h2>GOLD</h2>
 						<p class="text-center font-weight-bold">35% After 48 Hours</p>
-						<div></div>
+						<div>
+							<img src="img/diamond.svg" alt="diamond icon" class="icon-image">
+						</div>
 						<div class="investment-plans_content">
 							<p>&check; Min Deposit: $10,000.00</p>
 							<p>&check; Max Deposit: $Unlimited</p>
@@ -391,7 +416,7 @@
 				<div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img src="img/bit.jpeg" alt="happy customer 1">
+							<img src="img/testimonial1.jpg" alt="happy customer 1" class="testimonial-image">
 							<div class="carousel-caption">
 								<p>I Am So Happy That After My Deposit I Received My Withdrawal Thank Fox Trade Invest LIMITED.</p>
 								<button type="button" class="btn btn-outline-light">Join Now</button>
@@ -400,7 +425,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img src="img/bit.jpeg" alt="happy customer 2">
+							<img src="img/testimonial2.jpg" alt="happy customer 2" class="testimonial-image">
 							<div class="carousel-caption">
 								<p>A Guaranteed Platform That Has All Investors Interest At Heart, Indeed I'm Glad To Be Part Of The Winning Team, Congratulations!</p>
 								<button type="button" class="btn btn-outline-light">Join Now</button>
@@ -409,7 +434,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img src="img/bit.jpeg" alt="happy customer 2">
+							<img src="img/testimonial3.jpg" alt="happy customer 2" class="testimonial-image">
 							<div class="carousel-caption">
 								<p>I Am So Happy That After My Deposit I Received My Withdrawal Thank Fox Trade Invest LIMITED.</p>
 								<button type="button" class="btn btn-outline-light">Join Now</button>
@@ -418,7 +443,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img src="img/bit.jpeg" alt="happy customer 2">
+							<img src="img/testimonial4.jpg" alt="happy customer 2" class="testimonial-image">
 							<div class="carousel-caption">
 								<p>I Am So Happy That After My Deposit I Received My Withdrawal Thank Fox Trade Invest LIMITED.</p>
 								<button type="button" class="btn btn-outline-light">Join Now</button>
@@ -427,16 +452,7 @@
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img src="img/bit.jpeg" alt="happy customer 2">
-							<div class="carousel-caption">
-								<p>I Am So Happy That After My Deposit I Received My Withdrawal Thank Fox Trade Invest LIMITED.</p>
-								<button type="button" class="btn btn-outline-light">Join Now</button>
-								<button type="button" class="btn btn-success">LOGIN</button>
-								<button type="button" class="btn btn-success">I AM MARKUS </button>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<img src="img/bit.jpeg" alt="happy customer 2">
+							<img src="img/testimonial5.jpg" alt="happy customer 2" class="testimonial-image">
 							<div class="carousel-caption">
 								<p>I Am So Happy That After My Deposit I Received My Withdrawal Thank Fox Trade Invest LIMITED.</p>
 								<button type="button" class="btn btn-outline-light">Join Now</button>
@@ -456,17 +472,17 @@
 			</section>
 
 			<section id="team">
-				<p class="experts">OUR EXPERTS</p>
+				<h2 class="experts">OUR EXPERTS</h2>
 				<h2 class="team-header">Meet Our Team</h2>
 				<ul class="nav nav-pills justify-content-center">
 					<li class="nav-item_team">
-						<a class="nav-link_team active" data-toggle="pill" href="#home"> <img src="img/bit.jpeg" alt="testing" class="team-img"> </a>
+						<a class="nav-link_team active" data-toggle="pill" href="#home"> <img src="img/thumbnail1.jpg" alt="testing" class="team-img thumbnail"> </a>
 					</li>
 					<li class="nav-item_team">
-						<a class="nav-link_team" data-toggle="pill" href="#menu1"><img src="img/bit.jpeg" alt="testing" class="team-img"></a>
+						<a class="nav-link_team" data-toggle="pill" href="#menu1"><img src="img/thumbnail2.jpeg" alt="testing" class="team-img thumbnail"></a>
 					</li>
 					<li class="nav-item_team">
-						<a class="nav-link_team" data-toggle="pill" href="#menu2"><img src="img/bit.jpeg" alt="testing" class="team-img"></a>
+						<a class="nav-link_team" data-toggle="pill" href="#menu2"><img src="img/thumbnail3.jpeg" alt="testing" class="team-img thumbnail"></a>
 					</li>
 				</ul>
 				<hr>
@@ -474,7 +490,7 @@
 					<div class="tab-pane container active" id="home">
 						<div class="row">
 							<div class="col-6">
-								<img src="img/bit.jpeg" alt="team member 1" class="image">
+								<img src="img/team-member1.jpeg" alt="team member 1" class="image">
 							</div>
 							<div class="col-6">
 								<h3>Maria, Jean-Luc Bruno Francis</h3>
@@ -488,7 +504,7 @@
 					<div class="tab-pane container fade" id="menu1">
 						<div class="row">
 							<div class="col-6">
-								<img src="img/bit.jpeg" alt="team member 3" class="image">
+								<img src="img/team-member2.jpeg" alt="team member 3" class="image">
 							</div>
 							<div class="col-6">
 								<h3>HARREE, Bheemlabye</h3>
@@ -501,7 +517,7 @@
 					<div class="tab-pane container fade" id="menu2">
 						<div class="row">
 							<div class="col-6">
-								<img src="img/bit.jpeg" alt="team member 3" class="image">
+								<img src="img/team-member3.jpeg" alt="team member 3" class="image">
 							</div>
 							<div class="col-6">
 								<h3>Michelle Kings</h3>
@@ -519,21 +535,7 @@
 			<!--happy customers section-->
 			<section id="happy-customers">
 				<h2>Over 350k Happy Customers Successful Investments Provided Loans</h2>
-				<div>
-					<blockquote class="bq-bottom">
-						<p>"One thing Bank Credito had build for many years is trust. Our banking arena is highly reliable. We are well known in most part of the world. When talking to people about our business it seem they already know us very well. Good reputation is what we are known for."</p>
-					</blockquote>
-					<div class="customer-rating">
-						<p>Shaya Hill</p>
-						
-						<span class="fas fa-star checked"></span>
-						<span class="fas fa-star checked"></span>
-						<span class="fas fa-star checked"></span>
-						<span class="fas fa-star checked"></span>
-						<span class="fas fa-star checked"></span> 
-						<p>Marketing Manager</p>
-					</div>
-				</div>
+				
 				<div>
 					<blockquote class="bq-bottom">
 						<p>"One thing Bank Credito had build for many years is trust. Our banking arena is highly reliable. We are well known in most part of the world. When talking to people about our business it seem they already know us very well. Good reputation is what we are known for."</p>
@@ -599,8 +601,16 @@
 				</form>
 			</section>
 
-			<section></section>
-			<section></section>
+			<section>
+				<div style="height:560px; background-color: #1D2330; overflow:hidden; box-sizing: border-box; border: 1px solid #282E3B; border-radius: 4px; text-align: right; line-height:14px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #262B38;padding:1px;padding: 0px; margin: 0px; width: 100%;"><div style="height:540px; padding:0px; margin:0px; width: 100%;"><iframe src="https://widget.coinlib.io/widget?type=chart&theme=dark&coin_id=859&pref_coin_id=1505" width="100%" height="536px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;line-height:14px;"></iframe></div><div style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;"><a href="https://coinlib.io" target="_blank" style="font-weight: 500; color: #626B7F; text-decoration:none; font-size:11px">Cryptocurrency Prices</a>&nbsp;by Coinlib</div></div>
+			</section>
+			
+			<section>
+				<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script><div id="coinmarketcap-widget-coin-price-block" coins="1,1027,825,52,4172,1839,5426,74" currency="USD" theme="light" transparent="false" show-symbol-logo="true"></div>
+			</section>
+			<section>
+				<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script><div id="coinmarketcap-widget-marquee" coins="1,1027,825,1839,52" currency="USD" theme="light" transparent="false" show-symbol-logo="true"></div>
+			</section>
 		<!--	<section id="login">
 				<div class="login-form">
 					<h3>LOGIN NOW</h3>
